@@ -36,6 +36,14 @@ body a {
   gap: 40px;
   list-style: none;
 }
+#navbar .container .nav-area .nav li a {
+  transition: 0.7s;
+}
+#navbar .container .nav-area .nav li a:hover {
+  color: #FDB827;
+  transition: 0.7s;
+  cursor: pointer;
+}
 #navbar .container .nav-area .nav .home {
   position: relative;
 }

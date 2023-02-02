@@ -35,6 +35,16 @@ body{
                 display: flex;
                 gap: 40px;
                 list-style: none;
+                li{
+                    a{
+                        transition: 0.7s;
+                        &:hover{
+                            color:#FDB827;
+                            transition: 0.7s;
+                            cursor: pointer;
+                        }
+                    }
+                }
                 .home{
                     position: relative;
 
@@ -50,6 +60,8 @@ body{
                         border-radius: 50%;
                     }
                 }
+
+               
             }
         }
     }
