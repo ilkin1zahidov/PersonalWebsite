@@ -10,7 +10,7 @@ const main = ({ image }) => {
           <div className="main_img">
             <img src={image} alt="image_one" />
           </div>
-          <h1 style={{ fontSize: 66, color: 'white', fontWeight: 900, marginTop: 57, zIndex: -2 }}>I </h1>
+          <h1 style={{ fontSize: 66, color: 'white', fontWeight: 900, marginTop: 4, zIndex: -2 }}>I </h1>
           <div className="content--all">
             <div className="main_content">
               <h1 className='text_one'>Hey there 👋 <br />
@@ -23,6 +23,11 @@ const main = ({ image }) => {
                industry's standard dummy text <br /> ever since the 1500s, when an unknown
                printer took a galley of type <br /> and scrambled it to make a type specimen book.
                 </p>
+                </div>
+                <div className="main_buttons">
+                      <div className="about_button">
+                          
+                      </div>
                 </div>
           </div>
         </div>
