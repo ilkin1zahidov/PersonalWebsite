@@ -1,23 +1,23 @@
-import React from 'react'
-
+import React from 'react';
+import {Link} from "react-router-dom";
 function navbar() {
   return (
-    <>
-        <div id="navbar">
+    
+        <section id="navbar">
             <div className="container">
                 <div className="nav-area">
                     <ul className='nav'>
-                        <li className='home'><a href="/">Home</a></li>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Contact</a></li>
-                        <li><a href="/">Portfolios</a></li>
-                        <li><a href="/">Journey</a></li>
-                        <li><a href="/">Blog</a></li>
+                        <li className='home'><Link to="/">Home</Link></li>
+                        <li><Link to="/">About</Link></li>
+                        <li><Link to="/">Contact</Link></li>
+                        <li><Link to="/">Portfolios</Link></li>
+                        <li><Link to="/">Journey</Link></li>
+                        <li><Link to="/">Blog</Link></li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </>
+        </section>
+    
   )
 }
 
