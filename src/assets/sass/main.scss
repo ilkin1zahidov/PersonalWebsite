@@ -57,22 +57,23 @@ body{
 
 #main{
     width: 100%;
-    height: auto;
+    height: 688px;
+    position: relative;
     .container{
         width: 100%;
         height: auto;
         padding: 60px 70px;
-
+       
        
             .main--all{
                 display: flex;
                 align-items: center;
-                    
+                
                 .main_img{
                     width: 30%;
                     position: relative;
                     left: 132px;
-                    top: -39px;
+                    top: -64px;
                     z-index: -1;
                     img{
                         width: 100%;
@@ -85,6 +86,7 @@ body{
                     align-items: flex-start;
                     gap: 50px;
                     margin-top: 89px;
+               
                     .main_content{
                         .text_one{
                             font-size: 64px;
@@ -95,12 +97,109 @@ body{
                         }
                   
                     }
-                    .main_lorem{
+                    .lorem_text{
                         color: #fff;
                         text-align: center;
+
+                       
+                  
                     }
+
+                    .main_buttons{
+                        margin-left: 83px;
+                        .about_button{
+                            width: 113px;
+                            height: 49px;
+                            border:1px solid #FDB827;
+                            background-color: #FDB827;
+                            color:#fff;
+                            border-radius: 8px;
+                            transition: 0.7s;
+                            &:hover{
+                                border:1px solid #0f0f0f;
+                                background-color: #0f0f0f;
+                                color:#FDB827;
+                                cursor: pointer;
+                                transition: 0.7s;
+                            }
+                        }
+                        .portfolios_button{
+                            width: 198px;
+                            height: 49px;
+                            border-radius: 8px;
+                            border:1px solid #0f0f0f;
+                            background-color: #0f0f0f;
+                            color: #fff;
+                            margin-left: 11px;
+                            transition: 0.7s;
+                            &:hover{
+                                border:1px solid #FDB827;
+                                background-color: #FDB827;
+                                color:#0f0f0f;
+                                cursor: pointer;
+                                transition: 0.7s;
+                            }
+                        }
+                     }
+                    .image_second{
+                        width: 25%;
+                        height: auto;
+                        position: absolute;
+                        right: 12%;
+                        bottom: -24px;
+                        z-index: -1;
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                     }
                 }
             }
         
+    }
+}
+
+#footer{
+    width: 100%;
+    height: auto;
+    .container{
+        width: 100%;
+        height: auto;
+        padding: 0px 30px;
+        .footer--all{
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;
+            .footer_text{
+                color:#fff;
+                font-size: 15px;
+                font-weight: 400;
+            
+            }
+            .footer_icons{
+                display: flex;
+                gap: 17px;
+                width: 20%;
+                
+                img{
+                    width: 24px;
+                    height: auto;
+                    transition: 0.7s;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #FDB827;
+                        transition: 0.7s;
+                        border:1px solid #FDB827;
+                        border-radius: 50%;
+                     
+                    }
+                }
+            }
+            .footer_source{
+                color: #fff;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
     }
 }

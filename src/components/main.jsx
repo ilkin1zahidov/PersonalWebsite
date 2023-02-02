@@ -8,27 +8,32 @@ const main = ({ image }) => {
       <div className="container">
         <div className="main--all">
           <div className="main_img">
-            <img src={image} alt="image_one" />
+            <img src={image.Main_img} alt="image_one" />
           </div>
-          <h1 style={{ fontSize: 66, color: 'white', fontWeight: 900, marginTop: 4, zIndex: -2 }}>I </h1>
+          <h1 style={{ fontSize: 66, color: 'white', fontWeight: 900, marginTop: -46, zIndex: -2 }}>I </h1>
           <div className="content--all">
             <div className="main_content">
               <h1 className='text_one'>Hey there 👋 <br />
                 am Amirhossein</h1>
             
             </div>
-            <div className='main_lorem'>
+            <div className='lorem_text'>
                 <p >
                 Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry. Lorem Ipsum has been the 
                industry's standard dummy text <br /> ever since the 1500s, when an unknown
                printer took a galley of type <br /> and scrambled it to make a type specimen book.
                 </p>
+
                 </div>
+                
                 <div className="main_buttons">
-                      <div className="about_button">
-                          
-                      </div>
+                  <button className='about_button'>About me</button>
+                  <button className='portfolios_button'>😮 Let’s see portfolios</button> 
+
                 </div>
+                <div className="image_second">
+                    <img src={image.Main_imgSecond} alt="" />
+                  </div>
           </div>
         </div>
       </div>
