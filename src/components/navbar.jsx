@@ -8,7 +8,7 @@ function navbar() {
                 <div className="nav-area">
                     <ul className='nav'>
                         <li className='home'><Link to="/">Home</Link></li>
-                        <li><Link to="/">About</Link></li>
+                        <li><Link to="/About">About</Link></li>
                         <li><Link to="/">Contact</Link></li>
                         <li><Link to="/">Portfolios</Link></li>
                         <li><Link to="/">Journey</Link></li>
