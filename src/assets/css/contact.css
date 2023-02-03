@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+}
+body a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#contact {
+  width: 100%;
+  height: 649px;
+}
+#contact .container {
+  width: 100%;
+  height: auto;
+  padding: 0px 90px;
+}
+#contact .container .contact--all {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+#contact .container .contact--all .contact_img {
+  width: 23%;
+  height: auto;
+}
+#contact .container .contact--all .contact_img img {
+  width: 100%;
+  height: auto;
+}
+#contact .container .contact--all .contact-text {
+  color: #fff;
+  margin-left: 51px;
+}
+#contact .container .contact--all .contact-text .text_head {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#contact .container .contact--all .contact-text .contact_me {
+  margin-bottom: 20px;
+  line-height: 40px;
+}/*# sourceMappingURL=contact.css.map */

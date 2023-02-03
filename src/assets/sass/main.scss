@@ -112,47 +112,12 @@ body{
                     .lorem_text{
                         color: #fff;
                         text-align: center;
-
+                        
                        
                   
                     }
 
-                    .main_buttons{
-                        margin-left: 83px;
-                        .about_button{
-                            width: 113px;
-                            height: 49px;
-                            border:1px solid #FDB827;
-                            background-color: #FDB827;
-                            color:#fff;
-                            border-radius: 8px;
-                            transition: 0.7s;
-                            &:hover{
-                                border:1px solid #0f0f0f;
-                                background-color: #0f0f0f;
-                                color:#FDB827;
-                                cursor: pointer;
-                                transition: 0.7s;
-                            }
-                        }
-                        .portfolios_button{
-                            width: 198px;
-                            height: 49px;
-                            border-radius: 8px;
-                            border:1px solid #0f0f0f;
-                            background-color: #0f0f0f;
-                            color: #fff;
-                            margin-left: 11px;
-                            transition: 0.7s;
-                            &:hover{
-                                border:1px solid #FDB827;
-                                background-color: #FDB827;
-                                color:#0f0f0f;
-                                cursor: pointer;
-                                transition: 0.7s;
-                            }
-                        }
-                     }
+                 
                     .image_second{
                         width: 25%;
                         height: auto;
@@ -173,7 +138,7 @@ body{
 
 #footer{
     width: 100%;
-    height: auto;
+    height: 35px;
     .container{
         width: 100%;
         height: auto;
@@ -215,3 +180,42 @@ body{
         }
     }
 }
+
+
+
+.main_buttons{
+                
+    .about_button{
+        width: 113px;
+        height: 49px;
+        border:1px solid #FDB827;
+        background-color: #FDB827;
+        color:#fff;
+        border-radius: 8px;
+        transition: 0.7s;
+        &:hover{
+            border:1px solid #0f0f0f;
+            background-color: #0f0f0f;
+            color:#FDB827;
+            cursor: pointer;
+            transition: 0.7s;
+        }
+    }
+    .portfolios_button{
+        width: 198px;
+        height: 49px;
+        border-radius: 8px;
+        border:1px solid #0f0f0f;
+        background-color: #0f0f0f;
+        color: #fff;
+        margin-left: 11px;
+        transition: 0.7s;
+        &:hover{
+            border:1px solid #FDB827;
+            background-color: #FDB827;
+            color:#0f0f0f;
+            cursor: pointer;
+            transition: 0.7s;
+        }
+    }
+ }

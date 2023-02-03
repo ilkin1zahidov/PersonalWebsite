@@ -9,11 +9,11 @@ const mainImg ={
 };
 const Index = () => {
   return (
-    <div>
+    <>
         <Main 
           image = {mainImg}
         />
-    </div>
+    </>
   )
 }
 

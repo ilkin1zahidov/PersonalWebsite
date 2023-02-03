@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Button from "../components/button"
 
 const main = ({ image }) => {
   return (
@@ -18,21 +18,19 @@ const main = ({ image }) => {
             
             </div>
             <div className='lorem_text'>
-                <p >
+                <p style ={{marginBottom:50}} >
                 Lorem Ipsum is simply dummy text of the printing and typesetting <br /> industry. Lorem Ipsum has been the 
                industry's standard dummy text <br /> ever since the 1500s, when an unknown
                printer took a galley of type <br /> and scrambled it to make a type specimen book.
                 </p>
 
-                </div>
-                
-                <div className="main_buttons">
-                  <button className='about_button'>About me</button>
-                  <button className='portfolios_button'>😮 Let’s see portfolios</button> 
+                    <Button/>
 
                 </div>
+                
+            
                 <div className="image_second">
-                    <img src={image.Main_imgSecond} alt="" />
+                    <img src={image.Main_imgSecond} alt="main_imgSecond" />
                   </div>
           </div>
         </div>
