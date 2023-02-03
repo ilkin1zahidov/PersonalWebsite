@@ -9,7 +9,7 @@ function navbar() {
                         <li className='home'><Link to="/">Home</Link></li>
                         <li><Link to="/About">About</Link></li>
                         <li><Link to="/Contact">Contact</Link></li>
-                        <li><Link to="/">Portfolios</Link></li>
+                        <li><Link to="/Portfolios">Portfolios</Link></li>
                         <li><Link to="/">Journey</Link></li>
                         <li><Link to="/">Blog</Link></li>
                     </ul>

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+}
+body a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#portfolios {
+  width: 100%;
+  height: auto;
+}
+#portfolios .container {
+  width: 100%;
+  height: auto;
+  padding: 40px 90px;
+}
+#portfolios .container .portfolios--all {
+  color: #fff;
+  margin-left: 90px;
+  display: flex;
+  gap: 13px;
+}
+#portfolios .container .portfolios--all .card-common {
+  display: flex;
+  flex-wrap: wrap;
+}
+#portfolios .container .portfolios--all .card-common .card {
+  width: 520px;
+  height: 189px;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-radius: 19px;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  display: flex;
+  gap: 20px;
+  margin-left: 31px;
+  margin-top: 27px;
+  transition: 0.7s;
+}
+#portfolios .container .portfolios--all .card-common .card:hover {
+  cursor: pointer;
+  transition: 0.7s;
+  border: 1px solid #FDB827;
+  background-color: #FDB827;
+}
+#portfolios .container .portfolios--all .card-common .card .card_img {
+  width: 36%;
+  height: auto;
+}
+#portfolios .container .portfolios--all .card-common .card .card_img img {
+  width: 100%;
+  height: auto;
+}
+#portfolios .container .portfolios--all .card-common .card .card-text {
+  margin: 21px 0px;
+}
+#portfolios .container .portfolios--all .card-common .card .card-text .card_head {
+  margin-bottom: 23px;
+}
+#portfolios .container .portfolios--all .card-common .card .card-text .card_info {
+  margin-top: 45px;
+}/*# sourceMappingURL=portfolios.css.map */

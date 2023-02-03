@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact"
-
+import Portfolios from "./pages/Portfolios";
 // ---------------------------------------------------------------------
 //TODO: Footer img
 
@@ -31,6 +31,8 @@ function App() {
           <Route path="/" element={<Index />} />
           <Route path ="/About" element ={<About />} />
           <Route path = "/Contact" element = {<Contact />} />
+          <Route path = "/Portfolios" element = {<Portfolios />} />
+          
         </Routes>
         <Footer 
           image = {footerImg}
