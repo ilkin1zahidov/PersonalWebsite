@@ -1,3 +1,4 @@
+@import "../abstract/variable";
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 body{
     height: 100vh;
     font-family: "Inter", sans-serif;
-    background-color: #000;
+    background-color: $bg-color;
     a{
         text-decoration: none;
         color:#fff;
@@ -28,7 +29,7 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color:  #FFFFFF1A;
+            background-color:  $navbar-color;
         
             height: 65px;
             .nav{
@@ -39,7 +40,7 @@ body{
                     a{
                         transition: 0.7s;
                         &:hover{
-                            color:#FDB827;
+                            color:$yellow-color;
                             transition: 0.7s;
                             cursor: pointer;
                         }
@@ -55,8 +56,8 @@ body{
                         content: "";
                         width: 5px;
                         height: 5px;
-                        border: 1px solid #FDB827;
-                        background-color: #FDB827;
+                        border: 1px solid $yellow-color;
+                        background-color: $yellow-color;
                         border-radius: 50%;
                     }
                 }
@@ -164,9 +165,9 @@ body{
                     transition: 0.7s;
                     &:hover{
                         cursor: pointer;
-                        background-color: #FDB827;
+                        background-color: $yellow-color;
                         transition: 0.7s;
-                        border:1px solid #FDB827;
+                        border:1px solid $yellow-color;
                         border-radius: 50%;
                      
                     }
@@ -176,6 +177,12 @@ body{
                 color: #fff;
                 font-size: 15px;
                 font-weight: 400;
+                transition: 0.7s;
+                &:hover{
+                    cursor: pointer;
+                    color:$yellow-color;
+                    transition: 0.7s;
+                }
             }
         }
     }
@@ -188,14 +195,14 @@ body{
     .about_button{
         width: 113px;
         height: 49px;
-        border:1px solid #FDB827;
-        background-color: #FDB827;
+        border:1px solid $yellow-color;
+        background-color: $yellow-color;
         color:#fff;
         border-radius: 8px;
         transition: 0.7s;
         &:hover{
-            border:1px solid #0f0f0f;
-            background-color: #0f0f0f;
+            border:1px solid $button-color;
+            background-color: $button-color;
             color:#FDB827;
             cursor: pointer;
             transition: 0.7s;
@@ -205,15 +212,15 @@ body{
         width: 198px;
         height: 49px;
         border-radius: 8px;
-        border:1px solid #0f0f0f;
-        background-color: #0f0f0f;
+        border:1px solid  $button-color;
+        background-color:  $button-color;
         color: #fff;
         margin-left: 11px;
         transition: 0.7s;
         &:hover{
-            border:1px solid #FDB827;
-            background-color: #FDB827;
-            color:#0f0f0f;
+            border:1px solid $yellow-color;
+            background-color: $yellow-color;
+            color:$button-color;
             cursor: pointer;
             transition: 0.7s;
         }

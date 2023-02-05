@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #000;
+}
+body a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#journey {
+  width: 100%;
+  height: auto;
+}
+#journey .container {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  display: flex;
+}
+#journey .container .journey--all {
+  display: flex;
+  width: 80%;
+}
+#journey .container .journey--all .journey-row {
+  padding: 40px 82px;
+}
+#journey .container .journey--all .journey-row .imgText {
+  display: flex;
+  gap: 37px;
+  margin-bottom: 20px;
+}
+#journey .container .journey--all .journey-row .imgText .journey_img {
+  width: 25%;
+}
+#journey .container .journey--all .journey-row .imgText .journey_img img {
+  width: 100%;
+  height: auto;
+}
+#journey .container .journey--all .journey-row .imgText .journey_head {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#journey .container .journey--all .journey-row .imgText .journey_head .journey_text {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+}
+#journey .container .journey--all .journey-row .imgText .journey_head .journey_lorem {
+  line-height: 21px;
+  margin-top: 35px;
+  color: rgba(255, 255, 255, 0.45);
+}
+#journey .container .journey--time {
+  width: 20%;
+  background-color: #0e0e10;
+  margin-bottom: 40px;
+}
+#journey .container .journey--time .time-row {
+  padding: 40px 25px;
+}
+#journey .container .journey--time .time-row .time {
+  margin-bottom: 22px;
+  font-size: 26px;
+  font-weight: 700;
+}
+#journey .container .journey--time .time-row .dropdown {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#journey .container .journey--time .time-row .dropdown .dropdown-btn {
+  background-color: #0e0e10;
+  font-weight: bold;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 55px;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+#journey .container .journey--time .time-row .time_comment {
+  margin-top: 22px;
+}
+#journey .container .journey--time .time-row .time_comment .comment_box {
+  width: 253px;
+  border: 1px solid white;
+  height: 112px;
+  padding: 13px 18px;
+  background-color: rgba(253, 184, 39, 0.0509803922);
+  border-radius: 9px;
+}/*# sourceMappingURL=journey.css.map */

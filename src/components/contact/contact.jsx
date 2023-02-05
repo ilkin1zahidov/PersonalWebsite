@@ -1,5 +1,5 @@
 import React from 'react'
-import "../button"
+
 
 import Button from "../button"
 const contact = ({ image }) => {

@@ -3,11 +3,14 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+
 // TODO: Pages
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact"
 import Portfolios from "./pages/Portfolios";
+import Journey from "./pages/Journey";
+import Blog from "./pages/Blog"
 // ---------------------------------------------------------------------
 //TODO: Footer img
 
@@ -32,7 +35,8 @@ function App() {
           <Route path ="/About" element ={<About />} />
           <Route path = "/Contact" element = {<Contact />} />
           <Route path = "/Portfolios" element = {<Portfolios />} />
-          
+          <Route path = "/Journey" element = {<Journey />} />
+          <Route path = "/Blog" element = {<Blog />} />
         </Routes>
         <Footer 
           image = {footerImg}

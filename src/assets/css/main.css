@@ -154,6 +154,12 @@ body a {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
+  transition: 0.7s;
+}
+#footer .container .footer--all .footer_source:hover {
+  cursor: pointer;
+  color: #FDB827;
+  transition: 0.7s;
 }
 
 .main_buttons .about_button {
