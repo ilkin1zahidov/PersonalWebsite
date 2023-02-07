@@ -78,7 +78,6 @@ body a {
   position: relative;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 #journey .container .journey--time .time-row .dropdown .dropdown-btn {

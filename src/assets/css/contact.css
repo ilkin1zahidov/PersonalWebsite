@@ -18,7 +18,7 @@ body a {
 
 #contact {
   width: 100%;
-  height: 649px;
+  height: 776px;
 }
 #contact .container {
   width: 100%;
@@ -31,7 +31,7 @@ body a {
   gap: 30px;
 }
 #contact .container .contact--all .contact_img {
-  width: 23%;
+  width: 24%;
   height: auto;
 }
 #contact .container .contact--all .contact_img img {

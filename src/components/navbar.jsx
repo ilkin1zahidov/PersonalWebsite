@@ -1,17 +1,19 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import {Link,useMatch,useResolvedPath} from "react-router-dom";
+
 function navbar() {
+
   return (
         <section id="navbar">
             <div className="container">
                 <div className="nav-area">
                     <ul className='nav'>
-                        <li className='home'><Link to="/">Home</Link></li>
-                        <li><Link to="/About">About</Link></li>
-                        <li><Link to="/Contact">Contact</Link></li>
-                        <li><Link to="/Portfolios">Portfolios</Link></li>
-                        <li><Link to="/Journey">Journey</Link></li>
-                        <li><Link to="/Blog">Blog</Link></li>
+                        <CustomLink className='home' to="/Home">Home</CustomLink>
+                        <CustomLink to="/About">About</CustomLink>
+                        <CustomLink to="/Contact">Contact</CustomLink>
+                        <CustomLink to="/Portfolios">Portfolios</CustomLink>
+                        <CustomLink to="/Journey">Journey</CustomLink>
+                        <CustomLink to="/Blog">Blog</CustomLink>
                     </ul>
                 </div>
             </div>
@@ -19,6 +21,17 @@ function navbar() {
     
   )
 }
-
+function CustomLink({to, children, ...props}){
+    const resolvedPath = useResolvedPath(to);
+    const isActive = useMatch({path:resolvedPath.pathname, end :true})
+     return(
+         <li className={isActive ? "active": ""}>
+             <Link to={to} {...props}>
+              {children}    
+              </Link>
+         </li>
+     )
+ 
+ }
 export default navbar
 

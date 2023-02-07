@@ -10,7 +10,7 @@ const main = ({ image }) => {
           <div className="main_img">
             <img src={image.Main_img} alt="image_one" />
           </div>
-          <h1 style={{ fontSize: 66, color: 'white', fontWeight: 900, marginTop: -46, zIndex: -2 }}>I </h1>
+          <h1 style={{ fontSize: 66, color: 'white', fontWeight: 900, marginTop: -52, zIndex: -2 }}>I </h1>
           <div className="content--all">
             <div className="main_content">
               <h1 className='text_one'>Hey there 👋 <br />
