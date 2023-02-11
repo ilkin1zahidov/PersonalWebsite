@@ -1,7 +1,9 @@
 import "./assets/css/main.css";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+import Navbar from "./components/navbar/navbar";
+import Footer from "./components/footer/footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+
 
 
 // TODO: Pages
@@ -17,6 +19,7 @@ import Blog from "./pages/Blog"
 import Github from "./assets/img/githubgithub.svg";
 import Twitter from "./assets/img/twitter.svg";
 import Footericon from "./assets/img/footer_icon.svg";
+
 
 function App() {
   const footerImg ={

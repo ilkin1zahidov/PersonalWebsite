@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const blog = ({image,cardHead,info}) => {
+
+const blog = ({image , cardHead , info}) => {
+
+  
+    
   return (
+    
     <section id='blog'>
+
             <div className="container">
              <div className="blog--all">
                 <div className="card-common">

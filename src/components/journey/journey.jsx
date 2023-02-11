@@ -1,6 +1,6 @@
 import React from "react";
 
-import Content from "../content";
+import Content from "../content/content";
 
 
 const journey = ({ image }) => {

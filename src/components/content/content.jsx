@@ -1,5 +1,5 @@
 import React from 'react'
-import "../assets/css/about.css"
+import "../../assets/css/main.css"
 const content = () => {
   return (
     <>

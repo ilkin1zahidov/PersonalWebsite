@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import Button from "../button"
+import Button from "../button/button"
 const contact = ({ image }) => {
   return (
     <section id='contact'>

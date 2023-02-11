@@ -1,5 +1,5 @@
 import React from 'react'
-import Content from "../content"
+import Content from "../content/content"
 const about = ({ image, description }) => {
   return (
     <section id='about'>
