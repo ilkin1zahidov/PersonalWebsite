@@ -16,44 +16,46 @@ body{
         font-weight: 700;
     }
 }
-
-#navbar{
-    width: 100%;
-    height: auto;
-
-    .container{
+header{
+    #navbar{
         width: 100%;
         height: auto;
-
-        .nav-area{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color:  $navbar-color;
-        
-            height: 65px;
-            .nav{
+    
+        .container{
+            width: 100%;
+            height: auto;
+    
+            .nav-area{
                 display: flex;
-                gap: 40px;
-                list-style: none;
+                justify-content: center;
                 align-items: center;
-                li{
-                    a{
-                        transition: 0.7s;
-                        &:hover{
-                            color:$yellow-color;
+                background-color:  $navbar-color;
+            
+                height: 65px;
+                .nav{
+                    display: flex;
+                    gap: 40px;
+                    list-style: none;
+                    align-items: center;
+                    li{
+                        a{
                             transition: 0.7s;
-                            cursor: pointer;
+                            &:hover{
+                                color:$yellow-color;
+                                transition: 0.7s;
+                                cursor: pointer;
+                            }
                         }
                     }
+                 
+    
+                  
                 }
-             
-
-              
             }
         }
     }
 }
+
 
 .active{
     position: relative;
@@ -71,127 +73,131 @@ body{
                     }
 }
 
-
-#main{
-    width: 100%;
-    height: 770px;
-    position: relative;
-
-    .container{
+main{
+    #main{
         width: 100%;
-        height: auto;
-        padding: 60px 70px;
-       
-       
-            .main--all{
-                display: flex;
-                align-items: center;
-                
-                .main_img{
-                    width: 30%;
-                    position: relative;
-                    left: 132px;
-                    top: -72px;
-                    z-index: -1;
-                    img{
-                        width: 100%;
-                        height: auto;
-                    }
-                }
-                .content--all{
+        height: 770px;
+        position: relative;
+    
+        .container{
+            width: 100%;
+            height: auto;
+            padding: 60px 70px;
+           
+           
+                .main--all{
                     display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    gap: 50px;
-                    margin-top: 89px;
-               
-                    .main_content{
-                        .text_one{
-                            font-size: 64px;
-                            text-align: center;
-                            color: #fff;
-                            font-weight: 900;
-                           
-                        }
-                  
-                    }
-                    .lorem_text{
-                        color: #fff;
-                        text-align: center;
-                        
-                       
-                  
-                    }
-
-                 
-                    .image_second{
-                        width: 25%;
-                        height: auto;
-                        position: absolute;
-                        right: 12%;
-                        bottom: -24px;
+                    align-items: center;
+                    
+                    .main_img{
+                        width: 30%;
+                        position: relative;
+                        left: 132px;
+                        top: -72px;
                         z-index: -1;
                         img{
                             width: 100%;
                             height: auto;
                         }
-                     }
+                    }
+                    .content--all{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 50px;
+                        margin-top: 89px;
+                   
+                        .main_content{
+                            .text_one{
+                                font-size: 64px;
+                                text-align: center;
+                                color: #fff;
+                                font-weight: 900;
+                               
+                            }
+                      
+                        }
+                        .lorem_text{
+                            color: #fff;
+                            text-align: center;
+                            
+                           
+                      
+                        }
+    
+                     
+                        .image_second{
+                            width: 25%;
+                            height: auto;
+                            position: absolute;
+                            right: 12%;
+                            bottom: -24px;
+                            z-index: -1;
+                            img{
+                                width: 100%;
+                                height: auto;
+                            }
+                         }
+                    }
                 }
-            }
-        
+            
+        }
     }
 }
 
-#footer{
-    width: 100%;
-    height: 35px;
-    .container{
+footer{
+    #footer{
         width: 100%;
-        height: auto;
-        padding: 0px 30px;
-        .footer--all{
-            display: flex;
-            justify-content: space-between; 
-            align-items: center;
-            .footer_text{
-                color:#fff;
-                font-size: 15px;
-                font-weight: 400;
-            
-            }
-            .footer_icons{
+        height: 35px;
+        .container{
+            width: 100%;
+            height: auto;
+            padding: 0px 30px;
+            .footer--all{
                 display: flex;
-                gap: 17px;
-                width: 20%;
+                justify-content: space-between; 
+                align-items: center;
+                .footer_text{
+                    color:#fff;
+                    font-size: 15px;
+                    font-weight: 400;
                 
-                img{
-                    width: 24px;
-                    height: auto;
+                }
+                .footer_icons{
+                    display: flex;
+                    gap: 17px;
+                    width: 20%;
+                    
+                    img{
+                        width: 24px;
+                        height: auto;
+                        transition: 0.7s;
+                        &:hover{
+                            cursor: pointer;
+                            background-color: $yellow-color;
+                            transition: 0.7s;
+                            border:1px solid $yellow-color;
+                            border-radius: 50%;
+                         
+                        }
+                    }
+                }
+                .footer_source{
+                    color: #fff;
+                    font-size: 15px;
+                    font-weight: 400;
                     transition: 0.7s;
                     &:hover{
                         cursor: pointer;
-                        background-color: $yellow-color;
+                        color:$yellow-color;
                         transition: 0.7s;
-                        border:1px solid $yellow-color;
-                        border-radius: 50%;
-                     
                     }
-                }
-            }
-            .footer_source{
-                color: #fff;
-                font-size: 15px;
-                font-weight: 400;
-                transition: 0.7s;
-                &:hover{
-                    cursor: pointer;
-                    color:$yellow-color;
-                    transition: 0.7s;
                 }
             }
         }
     }
 }
+
 
 
 

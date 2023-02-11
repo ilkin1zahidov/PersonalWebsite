@@ -16,41 +16,42 @@ body{
         font-weight: 700;
     }
 }
-
-#about{
-    width: 100%;
-    height: auto;
-    .container{
+main{
+    #about{
         width: 100%;
         height: auto;
-        padding: 0px 90px;
-        .about--all{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            .about_head{
+        .container{
+            width: 100%;
+            height: auto;
+            padding: 0px 90px;
+            .about--all{
                 display: flex;
-                align-items: center;
-                .about_img{
-                    width: 30%;
-                    height: auto;
-                    img{
-                        width: 100%;
+                flex-direction: column;
+                gap: 20px;
+                .about_head{
+                    display: flex;
+                    align-items: center;
+                    .about_img{
+                        width: 30%;
                         height: auto;
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
                     }
+                        .about_text{
+                            color: #fff;
+                            line-height: 65px;
+                            font-size: 50px;
+                            margin-top: 75px;
+                        }
                 }
-                    .about_text{
-                        color: #fff;
-                        line-height: 65px;
-                        font-size: 50px;
-                        margin-top: 75px;
-                    }
-            }
-
-            .content--all{
-                color:#fff;
-                margin-bottom: 40px;
-            
+    
+                .content--all{
+                    color:#fff;
+                    margin-bottom: 40px;
+                
+                }
             }
         }
     }

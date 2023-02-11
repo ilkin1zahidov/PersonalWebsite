@@ -3,8 +3,8 @@ import Button from "../button/button"
 
 const main = ({ image }) => {
   return (
-
-    <main>
+    <>
+      <main>
       <section id='main'>
 
         <div className="container">
@@ -39,7 +39,9 @@ const main = ({ image }) => {
         </div>
 
       </section>
-    </main>
+      </main>
+    </>
+  
 
   )
 }

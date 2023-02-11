@@ -17,64 +17,65 @@ body{
     }
 }
 
-
-#blog{
-    width: 100%;
-    height: auto;
-    .container{
+main{
+    #blog{
         width: 100%;
         height: auto;
-        padding: 40px 90px;
-        .blog--all{
-            color:#fff;
-            margin-left: 90px;
-            display: flex;
-            gap: 13px;
-            .card-common{
+        .container{
+            width: 100%;
+            height: auto;
+            padding: 40px 90px;
+            .blog--all{
+                color:#fff;
+                margin-left: 90px;
                 display: flex;
-                flex-wrap: wrap;
-
-                .card{
-                    width: 267px;
-                    height: 370px;
-                    border: 1px solid $navbar-color;
-                    border-radius: 19px;
-                    background-color: $navbar-color;
+                gap: 13px;
+                .card-common{
                     display: flex;
-                    gap: 20px;
-                    margin-left: 13px;
-                    margin-top: 13px;
-                    transition: 0.7s;
-                    &:hover{
-                        cursor: pointer;
-                        transition: 0.7s;
-                        border: 1px solid $yellow-color;
-                        background-color: $yellow-color;
-                    }
-                    .card-right{
+                    flex-wrap: wrap;
+    
+                    .card{
+                        width: 267px;
+                        height: 370px;
+                        border: 1px solid $navbar-color;
+                        border-radius: 19px;
+                        background-color: $navbar-color;
                         display: flex;
-                        flex-direction: column;
-                        .card_img{
-                            width: 100%;
-                            height: auto;
-                            img{
+                        gap: 20px;
+                        margin-left: 13px;
+                        margin-top: 13px;
+                        transition: 0.7s;
+                        &:hover{
+                            cursor: pointer;
+                            transition: 0.7s;
+                            border: 1px solid $yellow-color;
+                            background-color: $yellow-color;
+                        }
+                        .card-right{
+                            display: flex;
+                            flex-direction: column;
+                            .card_img{
                                 width: 100%;
                                 height: auto;
+                                img{
+                                    width: 100%;
+                                    height: auto;
+                                }
                             }
-                        }
-                        .card-text{
-                            padding: 12px;
-                            .card_head{
-                                margin-bottom: 12px;
+                            .card-text{
+                                padding: 12px;
+                                .card_head{
+                                    margin-bottom: 12px;
+                                }
+        
+                                .card_info{
+                                    margin-top: 20px;
+                                }
+        
                             }
-    
-                            .card_info{
-                                margin-top: 20px;
-                            }
-    
-                        }
-                    }   
-                  
+                        }   
+                      
+                    }
                 }
             }
         }

@@ -2,7 +2,10 @@ import React from 'react'
 
 const portfolios = ({image,cardHead,info}) => {
   return (
-        <section id='portfolios'>
+
+    <>
+      <main>
+      <section id='portfolios'>
             <div className="container">
              <div className="portfolios--all">
                 <div className="card-common">
@@ -83,6 +86,9 @@ const portfolios = ({image,cardHead,info}) => {
              </div>
             </div>
         </section>
+      </main>
+    </>
+     
   )
 }
 

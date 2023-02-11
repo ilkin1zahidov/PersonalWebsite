@@ -16,42 +16,44 @@ body{
         font-weight: 700;
     }
 }
-
-#contact{
-    width: 100%;
-    height: 776px;
-    .container{
+main{
+    #contact{
         width: 100%;
-        height:auto;
-        padding: 0px 90px;
-        .contact--all{
-            display: flex;
-            align-items: center;
-            gap: 30px;
-            .contact_img{
-                width: 24%;
-                height: auto;
-                img{
-                    width: 100%;
+        height: 776px;
+        .container{
+            width: 100%;
+            height:auto;
+            padding: 0px 90px;
+            .contact--all{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                .contact_img{
+                    width: 24%;
                     height: auto;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
                 }
-            }
-            .contact-text{
-                color: #fff;
-                margin-left: 51px;
-                .text_head{
-                    font-size: 36px;
-                    font-weight: 700;
-                    margin-bottom: 20px;
+                .contact-text{
+                    color: #fff;
+                    margin-left: 51px;
+                    .text_head{
+                        font-size: 36px;
+                        font-weight: 700;
+                        margin-bottom: 20px;
+                    }
+    
+                    .contact_me{
+                        margin-bottom: 20px;
+                        line-height: 40px;  
+                    }
+                    
                 }
-
-                .contact_me{
-                    margin-bottom: 20px;
-                    line-height: 40px;  
-                }
-                
             }
         }
     }
 }
+
 
