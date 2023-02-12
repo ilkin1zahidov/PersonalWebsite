@@ -1,0 +1,45 @@
+[
+    {
+        "UserId":1,
+        "Id":1,
+        "image":"http://localhost:3001/static/media/cardImg_first.871bba870824687be18df3793be1e947.svg",
+        "cardHead":"There is more than you know",
+        "info":"Read more"
+
+    },
+    {
+        "UserId":2,
+        "Id":2,
+        "image":"http://localhost:3001/static/media/cardImg_second.d044d627e079e0fd8805d1740c28ca7c.svg",
+        "cardHead":"There is more than you know",
+        "info":"Read more"
+    },
+    {
+        "UserId":3,
+        "Id":3,
+        "image":"http://localhost:3001/static/media/cardImg_third.03c7a9e278ab491cfaf6900879c30dfe.svg",
+        "cardHead":"There is more than you know",
+        "info":"Read more"
+    },
+    {
+        "UserId":4,
+        "Id":4,
+        "image":"http://localhost:3001/static/media/cardImg_fourth.44780abc9102f1de84cd313c1386273f.svg",
+        "cardHead":"There is more than you know",
+        "info":"Read more"
+    },
+    {
+        "UserId":5,
+        "Id":5,
+        "image":"http://localhost:3001/static/media/cardImg_fiveth.e632dc9d29d8017f1e187a54d24c4dee.svg",
+        "cardHead":"There is more than you know",
+        "info":"Read more"
+    },
+    {
+        "UserId":6,
+        "Id":6,
+        "image":"http://localhost:3001/static/media/cardImg_sixth.a6a937a2a90a07e2a75f0cb925f1d506.svg",
+        "cardHead":"There is more than you know",
+        "info":"Read more"
+    }
+]
