@@ -1,6 +1,6 @@
 import React from 'react'
 import DataJson from "./data.json"
-const portfolios = ({ image, cardHead, info }) => {
+const portfolios = () => {
   return (
 
     <>
