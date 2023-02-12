@@ -1,7 +1,7 @@
 import React from 'react';
 import DataJson from './data.json';
 
-const blog = ({image}) => {
+const blog = () => {
 
 
 
