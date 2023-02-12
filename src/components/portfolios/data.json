@@ -2,7 +2,7 @@
     {
         "UserId":1,
         "Id":1,
-        "image":"http://localhost:3001/static/media/cardImg_first.871bba870824687be18df3793be1e947.svg",
+        "image":"https://s3-alpha-sig.figma.com/img/5c66/ce68/e313e9aa707f00bd2ba97c453550dd38?Expires=1676851200&Signature=IKoZfvPM~qbltgEO2uz84gQ-PWp-RFkQLwMKNe06qSdh4qXl5fvXFG5CIOxTwUo1yq7SGj~kCxLl7uuuD1GnPmvVtKsC-O0H-R0kGsrsQn-Jm0~4tP9t6pBSiANENGpDd5Mb4ZBtj-hrz4wi6PNAQi3PkRGAYYeNjr9p0MFN42SAVqOPxB9G8zpWb1rYHmgre2LliAIHijtlmxfMfFe-ocko-miT2Sf5G95fw-aaV3xo~RVNTATvLgFU91E4ofse~~gDaHi2QgYcKpEB9-Jt~6BY6c2b28iIIVnR3rflfHf4BJHhacIYFZICqLAFHm8IEjNqpzNIJfudEjFo-zK9Ig__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "cardHead":"There is more than you know",
         "info":"Read more"
 
@@ -10,35 +10,35 @@
     {
         "UserId":2,
         "Id":2,
-        "image":"http://localhost:3001/static/media/cardImg_second.d044d627e079e0fd8805d1740c28ca7c.svg",
+        "image":"https://s3-alpha-sig.figma.com/img/b19d/0f0c/60b308d153c1556dfcb24f8a632c55c4?Expires=1676851200&Signature=k1wTu5Hnk3xhVuqu0y8VDrXLByOyq248QJqTN6ZvY6416yYV9z49U0R~XvmFFn9N~wPYctOrZORV6Bho8Dx2fawl6OPQA82S~RrwUnH6fHZCGZZyxbX8lW8LXz~BdckfMAuRbfvCmDJ0UrP-aYN3l56p-H6KvsDwkD9YTK0nDIzJvbsBNSipUqccItuiEAFSmcBK2HWeXXxe7Efr5tijOGFd4lqqQ7Q3VgGJhJDImi-mNwohSI2oOYM4GN9eedrZm6Tsi0i~vE2UXLQ~7RgiXv-SnpubgRGMx32wCrsgSuAz7m1UeDANCzyislHm4MfJcq1187WeI5smmUurs8WD-Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "cardHead":"There is more than you know",
         "info":"Read more"
     },
     {
         "UserId":3,
         "Id":3,
-        "image":"http://localhost:3001/static/media/cardImg_third.03c7a9e278ab491cfaf6900879c30dfe.svg",
+        "image":"https://s3-alpha-sig.figma.com/img/09e8/0e3e/dd6502d1725666c5962ca361c8bf8169?Expires=1676851200&Signature=phEGcnnUHOSeJfBOTRvuUD2irYMM6m12f9fQ0YHIzL8FWgEUnn401xqTpNVuQVJW-xWOhWtLVRO5XkDcQ-Z7g5Li1ZSHijZ~0U6kgd7~an0b-wy8vppH-4jcIobivVwaomPXxF1f6GZO~ZmFudYkgtE7wRNcQ7fD0hshszyEZLMJA4cvCoT3uMgOQ-W3kYLLVVPgorh0E2x1rsBA~btl9ljmo6p0q~YkQtAImZKXa0FWl8WcZG1gBL81hDD8rRr9k8oWbUul3794CmVefPrZExmOPAx2gTF7DknpLvxp80zdzFe1hWHXoc-K-JVockkcv4ehyyn~OwMNcOt7YPsGMA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "cardHead":"There is more than you know",
         "info":"Read more"
     },
     {
         "UserId":4,
         "Id":4,
-        "image":"http://localhost:3001/static/media/cardImg_fourth.44780abc9102f1de84cd313c1386273f.svg",
+        "image":"https://s3-alpha-sig.figma.com/img/3fd7/2a5d/742460a781e3449bd3d7e927290004f7?Expires=1676851200&Signature=e7IFsrkSyGoPNYPMsm4MlIbKb07weuip9nqCzQ499~8wYYmkFSUlkooe93dJzUPsCgOhu~H3A~9K6FIOOCV9uZ9wHRxP-wUtdZM7mZWsswQgR59~0c81bbYvsCIde56I-l7C0eQt~I-s4962dkG6rDHimF2I937t5I2T6va7fecwz-Zv20ATRC-9X0XzQX1scmWyjgf9wwsotuyLCpW0Fy3ZxtZegA-tvgWi5gsZvnvbU8aQFJZjs0HeOXsMoohkkdpMJ0LNwXDJEmNbffbb3OdRqSN6-01KzoITwu66ZB3lp2GFDs9Kj7vWyGYrwIHkT9VYghnoDFYTRYrlsGOu9Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "cardHead":"There is more than you know",
         "info":"Read more"
     },
     {
         "UserId":5,
         "Id":5,
-        "image":"http://localhost:3001/static/media/cardImg_fiveth.e632dc9d29d8017f1e187a54d24c4dee.svg",
+        "image":"https://s3-alpha-sig.figma.com/img/8348/a6d2/ff3f4ecbf1d6a3b9c7dedfcd0262c4d7?Expires=1676851200&Signature=HuSy-Ph3ZtD4mI6Cy-EiqwrPLKFS9Oo3sRL83dmJQdxgAXfYbF4HKOR0NjtLOMhgPFxjqIVdJ8SSS-LgizRrP9RDRhoSUbI1BGRPd~8Vitfi0HigmShNmbphcx3MR~7lRKfG0lyvWPlFQ30owliY7f4gvJr0r1YHFRf-GimZc6cqI8JP9tQxkZbNp5wOKO2Qb7xIM8E2Ffmlrm8qu7wSG6oAoe4QrL3WKiSD7jbWbRhP3qSNIXhM8YQAjlTHiPeIshbWjJk5l3tkIGNkMMQMbkZm0nPkdwB2kt4gf2yOMEGhkS-XK1MwXPs25Q2C1eC2KULGdkFDV~jXrc6AAEw9EA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "cardHead":"There is more than you know",
         "info":"Read more"
     },
     {
         "UserId":6,
         "Id":6,
-        "image":"http://localhost:3001/static/media/cardImg_sixth.a6a937a2a90a07e2a75f0cb925f1d506.svg",
+        "image":"https://s3-alpha-sig.figma.com/img/10f9/42af/fdfb5ecf5403141a7530999eeb6fc544?Expires=1676851200&Signature=VCtsPfFFCjODoNonirNZxZWCkfU6GsqfytA1PLsxSEurIw2rXSBMtwwiEf4-506wCO6lJWqvb-PSXR89OMugOjOgg5tDOrtASbdAyV8kWGQ~rOxqjVD5Jun2~f9KSQErMTPUG-Pv6U9UwfBcVnXeiasJwcwISZj6NAFGrpt24yER2BJ8Twv36vE1gGs7UCWESyFcp0YeY-hFdrBazaDO~b26MAteHHhzG9WPNrIN4YeuE2O5zQ0xYCSTUJv2lJfkEftB7as8Ltq2Td~C2MDePLYlY02-6USoUH56R1NpP~HdoeOTZDLS6~ZrFLSZfW-fl2p4ffB22xpOMyxoy-MB9w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "cardHead":"There is more than you know",
         "info":"Read more"
     }

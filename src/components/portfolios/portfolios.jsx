@@ -2,7 +2,6 @@ import React from 'react'
 import DataJson from "./data.json"
 const portfolios = () => {
   return (
-
     <>
       <main>
         <section id='portfolios'>
@@ -15,7 +14,7 @@ const portfolios = () => {
                     return (
                       <div className="card">
                         <div className="card_img">
-                          <img src={data.image} alt="" />
+                          <img src={data.image} alt="portfolio-cards" />
                         </div>
                         <div className="card-text">
                           <p className='card_head' >{data.cardHead}</p>

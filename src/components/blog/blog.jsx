@@ -3,8 +3,6 @@ import DataJson from './data.json';
 
 const blog = () => {
 
-
-
     return (
         <>
           <main>
@@ -18,7 +16,7 @@ const blog = () => {
                                     <div className="card">
                                     <div className="card-right">
                                         <div className="card_img">
-                                            <img src={data.image} alt="blog-first" />
+                                            <img src={data.image} alt="blog-cards" />
                                         </div>
                                         <div className="card-text">
                                             <p className='card_head' >{data.cardHead}</p>
