@@ -16,31 +16,31 @@ body a {
   font-weight: 700;
 }
 
-#navbar {
+header #navbar {
   width: 100%;
   height: auto;
 }
-#navbar .container {
+header #navbar .container {
   width: 100%;
   height: auto;
 }
-#navbar .container .nav-area {
+header #navbar .container .nav-area {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1019607843);
   height: 65px;
 }
-#navbar .container .nav-area .nav {
+header #navbar .container .nav-area .nav {
   display: flex;
   gap: 40px;
   list-style: none;
   align-items: center;
 }
-#navbar .container .nav-area .nav li a {
+header #navbar .container .nav-area .nav li a {
   transition: 0.7s;
 }
-#navbar .container .nav-area .nav li a:hover {
+header #navbar .container .nav-area .nav li a:hover {
   color: #FDB827;
   transition: 0.7s;
   cursor: pointer;
@@ -61,49 +61,49 @@ body a {
   border-radius: 50%;
 }
 
-#main {
+main #main {
   width: 100%;
   height: 770px;
   position: relative;
 }
-#main .container {
+main #main .container {
   width: 100%;
   height: auto;
   padding: 60px 70px;
 }
-#main .container .main--all {
+main #main .container .main--all {
   display: flex;
   align-items: center;
 }
-#main .container .main--all .main_img {
+main #main .container .main--all .main_img {
   width: 30%;
   position: relative;
   left: 132px;
   top: -72px;
   z-index: -1;
 }
-#main .container .main--all .main_img img {
+main #main .container .main--all .main_img img {
   width: 100%;
   height: auto;
 }
-#main .container .main--all .content--all {
+main #main .container .main--all .content--all {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 50px;
   margin-top: 89px;
 }
-#main .container .main--all .content--all .main_content .text_one {
+main #main .container .main--all .content--all .main_content .text_one {
   font-size: 64px;
   text-align: center;
   color: #fff;
   font-weight: 900;
 }
-#main .container .main--all .content--all .lorem_text {
+main #main .container .main--all .content--all .lorem_text {
   color: #fff;
   text-align: center;
 }
-#main .container .main--all .content--all .image_second {
+main #main .container .main--all .content--all .image_second {
   width: 25%;
   height: auto;
   position: absolute;
@@ -111,54 +111,54 @@ body a {
   bottom: -24px;
   z-index: -1;
 }
-#main .container .main--all .content--all .image_second img {
+main #main .container .main--all .content--all .image_second img {
   width: 100%;
   height: auto;
 }
 
-#footer {
+footer #footer {
   width: 100%;
   height: 35px;
 }
-#footer .container {
+footer #footer .container {
   width: 100%;
   height: auto;
   padding: 0px 30px;
 }
-#footer .container .footer--all {
+footer #footer .container .footer--all {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#footer .container .footer--all .footer_text {
+footer #footer .container .footer--all .footer_text {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
 }
-#footer .container .footer--all .footer_icons {
+footer #footer .container .footer--all .footer_icons {
   display: flex;
   gap: 17px;
   width: 20%;
 }
-#footer .container .footer--all .footer_icons img {
+footer #footer .container .footer--all .footer_icons img {
   width: 24px;
   height: auto;
   transition: 0.7s;
 }
-#footer .container .footer--all .footer_icons img:hover {
+footer #footer .container .footer--all .footer_icons img:hover {
   cursor: pointer;
   background-color: #FDB827;
   transition: 0.7s;
   border: 1px solid #FDB827;
   border-radius: 50%;
 }
-#footer .container .footer--all .footer_source {
+footer #footer .container .footer--all .footer_source {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
   transition: 0.7s;
 }
-#footer .container .footer--all .footer_source:hover {
+footer #footer .container .footer--all .footer_source:hover {
   cursor: pointer;
   color: #FDB827;
   transition: 0.7s;

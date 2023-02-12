@@ -16,39 +16,39 @@ body a {
   font-weight: 700;
 }
 
-#about {
+main #about {
   width: 100%;
   height: auto;
 }
-#about .container {
+main #about .container {
   width: 100%;
   height: auto;
   padding: 0px 90px;
 }
-#about .container .about--all {
+main #about .container .about--all {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-#about .container .about--all .about_head {
+main #about .container .about--all .about_head {
   display: flex;
   align-items: center;
 }
-#about .container .about--all .about_head .about_img {
+main #about .container .about--all .about_head .about_img {
   width: 30%;
   height: auto;
 }
-#about .container .about--all .about_head .about_img img {
+main #about .container .about--all .about_head .about_img img {
   width: 100%;
   height: auto;
 }
-#about .container .about--all .about_head .about_text {
+main #about .container .about--all .about_head .about_text {
   color: #fff;
   line-height: 65px;
   font-size: 50px;
   margin-top: 75px;
 }
-#about .container .about--all .content--all {
+main #about .container .about--all .content--all {
   color: #fff;
   margin-bottom: 40px;
 }/*# sourceMappingURL=about.css.map */

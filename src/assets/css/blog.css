@@ -16,26 +16,26 @@ body a {
   font-weight: 700;
 }
 
-#blog {
+main #blog {
   width: 100%;
   height: auto;
 }
-#blog .container {
+main #blog .container {
   width: 100%;
   height: auto;
   padding: 40px 90px;
 }
-#blog .container .blog--all {
+main #blog .container .blog--all {
   color: #fff;
   margin-left: 90px;
   display: flex;
   gap: 13px;
 }
-#blog .container .blog--all .card-common {
+main #blog .container .blog--all .card-common {
   display: flex;
   flex-wrap: wrap;
 }
-#blog .container .blog--all .card-common .card {
+main #blog .container .blog--all .card-common .card {
   width: 267px;
   height: 370px;
   border: 1px solid rgba(255, 255, 255, 0.1019607843);
@@ -47,30 +47,33 @@ body a {
   margin-top: 13px;
   transition: 0.7s;
 }
-#blog .container .blog--all .card-common .card:hover {
+main #blog .container .blog--all .card-common .card:hover {
   cursor: pointer;
   transition: 0.7s;
   border: 1px solid #FDB827;
   background-color: #FDB827;
 }
-#blog .container .blog--all .card-common .card .card-right {
+main #blog .container .blog--all .card-common .card .card-right {
   display: flex;
   flex-direction: column;
 }
-#blog .container .blog--all .card-common .card .card-right .card_img {
+main #blog .container .blog--all .card-common .card .card-right .card_img {
   width: 100%;
   height: auto;
 }
-#blog .container .blog--all .card-common .card .card-right .card_img img {
+main #blog .container .blog--all .card-common .card .card-right .card_img img {
   width: 100%;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 19px;
 }
-#blog .container .blog--all .card-common .card .card-right .card-text {
+main #blog .container .blog--all .card-common .card .card-right .card-text {
   padding: 12px;
 }
-#blog .container .blog--all .card-common .card .card-right .card-text .card_head {
+main #blog .container .blog--all .card-common .card .card-right .card-text .card_head {
   margin-bottom: 12px;
 }
-#blog .container .blog--all .card-common .card .card-right .card-text .card_info {
+main #blog .container .blog--all .card-common .card .card-right .card-text .card_info {
   margin-top: 20px;
 }/*# sourceMappingURL=blog.css.map */
